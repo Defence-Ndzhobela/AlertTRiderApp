@@ -39,7 +39,7 @@ function preloadReports() {
   localStorage.setItem("reports", JSON.stringify(reports));
 }
 
-// Load latest reports into home.html
+// Load latest reports into index.html
 function loadLatestReports() {
   preloadReports();
 
@@ -63,6 +63,7 @@ function loadLatestReports() {
     </div>
   `).join("");
 }
+
 document.getElementById("aiSuggestionBtn").addEventListener("click", async () => {
   const description = document.getElementById("description").value;
 
