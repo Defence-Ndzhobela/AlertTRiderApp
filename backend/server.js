@@ -20,9 +20,9 @@ const __dirname = path.dirname(__filename);
 // Serve static frontend files
 app.use(express.static(path.join(__dirname, "../frontend")));
 
-// ================= Serve default home.html =================
+// ================= Serve default index.html =================
 app.get("/", (req, res) => {
-  res.sendFile(path.join(__dirname, "../frontend/home.html"));
+  res.sendFile(path.join(__dirname, "../frontend/index.html"));
 });
 
 // ================= OpenAI client =================
@@ -65,7 +65,6 @@ app.post("/translate", async (req, res) => {
     const { text, target } = req.body;
     if (!text || !target) return res.status(400).json({ error: "Text and target language required" });
 
-    // Map language codes to full names for OpenAI
     const languageMap = {
       af: "Afrikaans",
       en: "English",
