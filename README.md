@@ -116,8 +116,6 @@ Defence Ndzhobela
 
 📞 064 793 9043
 
-Contributors:
-
 Singathwa Ngqula
 
 Nontathu Rica Sikhwebu
