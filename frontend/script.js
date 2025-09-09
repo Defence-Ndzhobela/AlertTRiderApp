@@ -73,7 +73,7 @@ document.getElementById("aiSuggestionBtn").addEventListener("click", async () =>
   }
 
   try {
-    const response = await fetch("http://localhost:5000/rewrite-description", {
+    const response = await fetch("https://alerttriderapp.onrender.com/rewrite-description", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({ description }),
@@ -90,3 +90,4 @@ document.getElementById("aiSuggestionBtn").addEventListener("click", async () =>
     alert("⚠️ Error connecting to AI service.");
   }
 });
+
