@@ -113,9 +113,7 @@ Deployment: Render / Vercel
 Defence Ndzhobela
 📍 Johannesburg, South Africa
 📧 ndzhobelad@gmail.com
-
 📞 064 793 9043
-
 Singathwa Ngqula
 
 Nontathu Rica Sikhwebu
